@@ -13,7 +13,7 @@ background:#e1e8e3 ;
 nav{
     width: 100%;
     overflow: auto;
-    background: rgb(255, 1, 179);
+    background:#242582;
     display: block;
     height: 80px;
 }
@@ -53,14 +53,15 @@ li a {
 
 li a:hover{
 
-    background: gray;
+    background:#f64c72;
     text-transform: uppercase;
 }
 
 
 .logo{
     display: flex;
-    flex direction: row;
+    display: row;
+
     
 }
 .logo img{
