@@ -13,9 +13,14 @@ background:#e1e8e3 ;
 nav{
     width: 100%;
     overflow: auto;
-    background:#242582;
+    
     display: block;
     height: 80px;
+
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 ul{
@@ -53,8 +58,12 @@ li a {
 
 li a:hover{
 
-    background:#f64c72;
+   
     text-transform: uppercase;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
